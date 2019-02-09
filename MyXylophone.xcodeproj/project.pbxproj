@@ -19,6 +19,7 @@
 		0AFB074E220DFFEE00EBE3D8 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB0747220DFFEE00EBE3D8 /* note1.wav */; };
 		0AFB074F220DFFEE00EBE3D8 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB0748220DFFEE00EBE3D8 /* note3.wav */; };
 		0AFB0750220DFFEE00EBE3D8 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB0749220DFFEE00EBE3D8 /* note5.wav */; };
+		0AFB0752220F01BF00EBE3D8 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0AFB0747220DFFEE00EBE3D8 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 		0AFB0748220DFFEE00EBE3D8 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
 		0AFB0749220DFFEE00EBE3D8 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				0AFB0730220DEC7D00EBE3D8 /* AppDelegate.swift */,
+				0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */,
 				0AFB0732220DEC7D00EBE3D8 /* ViewController.swift */,
 				0AFB0734220DEC7D00EBE3D8 /* Main.storyboard */,
 				0AFB0737220DEC7F00EBE3D8 /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 			files = (
 				0AFB0733220DEC7D00EBE3D8 /* ViewController.swift in Sources */,
 				0AFB0731220DEC7D00EBE3D8 /* AppDelegate.swift in Sources */,
+				0AFB0752220F01BF00EBE3D8 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
