@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyXylophone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CosmoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qnL-zX-6Vf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oje-Zb-Mkx" userLabel="Button 1" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="5" y="28" width="365" height="83.5"/>
+                                <rect key="frame" x="5" y="52.000000000000007" width="365" height="95.666666666666686"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkE-j7-iFX" userLabel="Button 2" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="10" y="119.5" width="355" height="83"/>
+                                <rect key="frame" x="10" y="155.66666666666666" width="355" height="95.666666666666657"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stj-rc-pA1" userLabel="Button 3" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="15" y="210.5" width="345" height="83.5"/>
+                                <rect key="frame" x="15" y="259.33333333333331" width="345" height="95.666666666666686"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGF-Uf-Jiy" userLabel="Button 4" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="20" y="302" width="335" height="83"/>
+                                <rect key="frame" x="20" y="363" width="335" height="96"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,7 +62,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTv-O8-xDc" userLabel="Button 5" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="25" y="393" width="325" height="83.5"/>
+                                <rect key="frame" x="25" y="467" width="325" height="95.666666666666686"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -72,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvb-3e-kXy" userLabel="Button 6" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="30" y="484.5" width="315" height="83"/>
+                                <rect key="frame" x="30" y="570.66666666666663" width="315" height="95.666666666666629"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -82,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfF-qY-MrD" userLabel="Button 7" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="35" y="575.5" width="305" height="83.5"/>
+                                <rect key="frame" x="35" y="674.33333333333337" width="305" height="95.666666666666629"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -136,6 +136,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CosmoBackground" width="192" height="341"/>
+        <image name="CosmoBackground" width="192" height="341.33334350585938"/>
     </resources>
 </document>

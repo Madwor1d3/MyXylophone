@@ -51,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A460B442210729D0037D87F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB0730220DEC7D00EBE3D8 /* AppDelegate.swift */,
+				0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A460B45221072D70037D87F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB0734220DEC7D00EBE3D8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A460B462210730A0037D87F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB0732220DEC7D00EBE3D8 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
 		0AFB0724220DEC7D00EBE3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +95,13 @@
 		0AFB072F220DEC7D00EBE3D8 /* MyXylophone */ = {
 			isa = PBXGroup;
 			children = (
-				0AFB0730220DEC7D00EBE3D8 /* AppDelegate.swift */,
-				0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */,
-				0AFB0732220DEC7D00EBE3D8 /* ViewController.swift */,
-				0AFB0734220DEC7D00EBE3D8 /* Main.storyboard */,
+				0A460B442210729D0037D87F /* Model */,
+				0A460B45221072D70037D87F /* View */,
+				0A460B462210730A0037D87F /* Control */,
+				0AFB0742220DFF1C00EBE3D8 /* Sound files */,
 				0AFB0737220DEC7F00EBE3D8 /* Assets.xcassets */,
 				0AFB0739220DEC7F00EBE3D8 /* LaunchScreen.storyboard */,
 				0AFB073C220DEC7F00EBE3D8 /* Info.plist */,
-				0AFB0742220DFF1C00EBE3D8 /* Sound files */,
 			);
 			path = MyXylophone;
 			sourceTree = "<group>";
