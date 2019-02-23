@@ -62,7 +62,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTv-O8-xDc" userLabel="Button 5" customClass="BorderButton" customModule="MyXylophone" customModuleProvider="target">
-                                <rect key="frame" x="25" y="467" width="325" height="95.666666666666686"/>
+                                <rect key="frame" x="25" y="467.00000000000006" width="325" height="95.666666666666686"/>
                                 <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.55830951620000002" green="1" blue="0.72125340390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

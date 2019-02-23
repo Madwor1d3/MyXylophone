@@ -51,11 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A401DDA2221AF6800FE50E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB0739220DEC7F00EBE3D8 /* LaunchScreen.storyboard */,
+				0AFB073C220DEC7F00EBE3D8 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0A460B442210729D0037D87F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0AFB0730220DEC7D00EBE3D8 /* AppDelegate.swift */,
-				0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -63,7 +70,7 @@
 		0A460B45221072D70037D87F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0AFB0734220DEC7D00EBE3D8 /* Main.storyboard */,
+				0AFB0751220F01BF00EBE3D8 /* BorderButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -71,6 +78,7 @@
 		0A460B462210730A0037D87F /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				0AFB0730220DEC7D00EBE3D8 /* AppDelegate.swift */,
 				0AFB0732220DEC7D00EBE3D8 /* ViewController.swift */,
 			);
 			path = Control;
@@ -99,9 +107,9 @@
 				0A460B45221072D70037D87F /* View */,
 				0A460B462210730A0037D87F /* Control */,
 				0AFB0742220DFF1C00EBE3D8 /* Sound files */,
+				0AFB0734220DEC7D00EBE3D8 /* Main.storyboard */,
 				0AFB0737220DEC7F00EBE3D8 /* Assets.xcassets */,
-				0AFB0739220DEC7F00EBE3D8 /* LaunchScreen.storyboard */,
-				0AFB073C220DEC7F00EBE3D8 /* Info.plist */,
+				0A401DDA2221AF6800FE50E3 /* Supporting Files */,
 			);
 			path = MyXylophone;
 			sourceTree = "<group>";
@@ -348,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV5BQ776YB;
-				INFOPLIST_FILE = MyXylophone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyXylophone/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV5BQ776YB;
-				INFOPLIST_FILE = MyXylophone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyXylophone/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
